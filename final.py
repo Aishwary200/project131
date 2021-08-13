@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 rows=[]
-with open('final.csv','r') as f:
+with open('final_data.csv','r') as f:
   df=csv.reader(f)
   for row in df:
     rows.append(row)
